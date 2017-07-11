@@ -7,6 +7,7 @@ class TasksController < ApplicationController
 
   def show
     #set_task
+
   end
 
   def new           # GET /tasks/new

@@ -4,7 +4,7 @@ class TasksController < ApplicationController
   end
 
   def show
-    @tasks = Task.find(params[:id])          # GET /tasks/:id
+    @task = Task.find(params[:id])          # GET /tasks/:id
   end
 
   def new           # GET /tasks/new
